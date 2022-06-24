@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+
+.card{
+  /* border: 2px solid black; */
+  max-width: 300px;
+  font-family: 'Lexend Deca', sans-serif;
+  padding: 40px;
+  line-height: 1.5;
+  ;
+
+
+
+}
+
+.card-heading{
+  font-family: 'Big Shoulders Display', cursive;
+  margin: 20px 0 20px 0;
+  /* font-weight: 700; */
+  font-size: 35px;
+  color: var(--Very-light-gray);
+}
+
+.card-button{
+  font-size: 15px;
+  font-weight: 600;
+  background-color: white;
+  background-color: var(--Very-light-gray);
+  border-radius: 24px;
+  border-width: 0;
+  padding: 10px 20px;
+  margin-bottom: 40px;
+
+}
+
+.card-button:hover{
+  background-color: lightgrey;
+  background-color: hsla(0, 0%, 95%, 0.4);
+}
+
+
+.card-para{
+  /* max-width: 50%; */
+  font-size: 15px;
+  height: 40%;
+  margin: 10px 0 40px 0;
+  color: var(--Transparent-white);
+}
+
+.card-1{
+  background-color: var(--Bright-orange);
+  border-radius: 12px 0 0 12px;
+}
+
+.card-1-button{
+  color: var(--Bright-orange);
+}
+.card-2-button{
+  color: var(--Dark-cyan);
+}
+.card-3-button{
+  color: var(--Very-dark-cyan);
+}
+
+.card-2{
+  background-color: var(--Dark-cyan);
+  border-radius: 0 0 0 0;
+}
+.card-3{
+  background-color: var(--Very-dark-cyan);
+  border-radius: 0 12px 12px 0;
+}
+
+.container{
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 10%;
+
+}
